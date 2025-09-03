@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: #dcca87;
+    width: auto;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 25px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(14, 48, 19, 1);
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(14, 48, 19, 1);
+
+}
+
+.n1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.n2 {
+    display: flex;
+    overflow-x: scroll;
+    gap: 50px;
+}
+
+.n2::-webkit-scrollbar {
+    display: none;
+}
+
+.content1 {
+    background-color: rgba(14, 48, 19, 1);
+    min-height: 700px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 20px 10px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50vw;
+}
+
+.first p:first-child,
+.menup,
+.cheifword p:first-child,
+.instagram,
+.contact {
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    text-underline-offset: 10px;
+}
+
+.first h1 {
+    font-size: 65px;
+    color: #dcca87;
+}
+
+.first p:nth-child(3) {
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.greenbtn {
+    width: max-content;
+    margin: 20px 0px;
+    padding: 15px 25px;
+    background-color: #07561b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.greenbtn:hover {
+    background-color: #0c7426;
+}
+
+.f1image {
+    min-width: 250px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f1image img {
+    width: 100%;
+    border-radius: 15px;
+    height: 700px;
+}
+
+.content2 {
+    padding: 0px 50px;
+    align-items: center;
+    text-align: center;
+    background-color: #091c1c;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.abouthistory {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    color: #dcca87;
+}
+
+.history p,
+.cheifword:nth-child(2),
+.aboutinsta,
+.contactus p {
+    color: white;
+    font-size: larger;
+}
+
+.knowmore {
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.menucard {
+    background-color: #0e3013;
+    width: 100%;
+    height: auto;
+}
+
+.menucenter,
+.menuc {
+    margin: 20px 0px 0px 0px;
+}
+
+.menuc:first-line {
+    color: white;
+    font-size: xx-large;
+}
+
+.jdfgap {
+    margin-bottom: 50px;
+}
+
+.menup {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.menuh {
+    text-align: center;
+    font-size: 30px;
+    color: #dcca87;
+    margin: 20px 0px;
+}
+
+.menucenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menucenter .menuc {
+    max-width: max-content;
+    min-width: 200px;
+}
+
+.orangejuice img {
+    width: 400px;
+    min-width: 200px;
+    max-width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.31);
+}
+
+.foodflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    width: 200px;
+    margin: 10px 20px 10px 0px;
+    color: #dcca87;
+    font-size: larger;
+}
+
+.rs {
+    width: 100px;
+    margin: 10px 20px;
+    color: #ffffff;
+    font-size: larger;
+}
+
+.dash {
+    align-self: center;
+    background-color: #dcca87;
+    width: 4rem;
+    height: 2px;
+}
+
+.type {
+    color: #aaaaaa;
+}
+
+.content4,
+.content6 {
+    width: 100%;
+    height: 100%;
+    background-color: #091c1c;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content4 .cheifimage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+    max-width: 600px;
+    height: max-content;
+    margin: 20px 40px;
+
+
+}
+
+.cheifimage img,
+.contactus img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.cheifword {
+    max-width: 600px;
+    margin: 40px 40px;
+    min-width: 100px;
+}
+
+.cheifword h1,
+.photogallery h1,
+.contactus h1 {
+    font-size: 50px;
+    color: #dcca87;
+    margin: 20px 0px;
+}
+
+.cheifword h3,
+.contactus h3,
+.open {
+    color: #dcca87;
+    font-size: x-large;
+}
+
+.content5 {
+    width: auto;
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.content5 video {
+
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    pointer-events: none;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+.instagramimages {
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow-x: scroll;
+}
+
+.instagramimages::-webkit-scrollbar {
+    display: none;
+}
+
+.instagramimages img {
+    width: 250px;
+    height: 400px;
+}
+
+.content6 {
+    padding: 50px 0px;
+    height: max-content;
+}
+
+.content6 .photogallery {
+    max-width: 600px;
+    width: 550px;
+    min-width: 200px;
+    padding: 0px 40px;
+}
+
+.content6 .instagramimages {
+    max-width: 720px;
+    width: 550px;
+    min-width: 200px;
+    scroll-behavior: smooth;
+
+}
+
+.instagramimages img {
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+}
+
+.instagramimages img:hover {
+    transform: scale(1.1);
+}
+
+.scrollimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    min-width: 320px;
+}
+
+#backBtn,
+#nextBtn {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#nextBtn {
+    right: 0px;
+}
+
+span {
+    width: 100%;
+    height: 100%;
+}
+
+.content7 {
+    width: 100%;
+    height: max-content;
+    background-color: #0e3013;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content7 div {
+    min-width: 280px;
+    width: 600px;
+    margin: 50px 30px;
+}
+
+.lastimage img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.n0 {
+    display: NONE;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9a8b56;
+    transition: .3s ease-in-out;
+}
+.n0 div{
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .n2 {
+        display: none;
+    }
+
+    .n3 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .n5 {
+        display: none;
+        
+    }
+
+}
